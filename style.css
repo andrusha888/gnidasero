@@ -1,0 +1,493 @@
+body{
+	background: url("bg.png");
+	color:white;
+	background-repeat: no-repeat;
+	background-position-x: 50%;	
+	background-position-y: 30% fixed;
+	background-color: black;
+	position: relative;
+	font-family: "Pangolin", cursive;
+  margin: 0;
+  padding: 0;
+}
+.wall{
+	width:800px;
+	cursor: pointer;
+}
+.tgk{
+	opacity:80%;
+  width: 500px;
+  margin-right:100px;
+	-webkit-filter: drop-shadow(0px 0px 0px rgba(255,255,255,0.80));
+	-webkit-transition: all 0.5s linear;
+	-o-transition: all 0.5s linear;
+	transition: all 0.5s linear;
+	
+}
+.insta{
+	opacity:80%;
+  width: 250px;
+  margin-right: 13%;
+	-webkit-filter: drop-shadow(0px 0px 0px rgba(255,255,255,0.80));
+	-webkit-transition: all 0.5s linear;
+	-o-transition: all 0.5s linear;
+	transition: all 0.5s linear;
+}
+.insta:hover {
+	opacity: 100%;
+	-webkit-filter: drop-shadow(0px 0px 10px rgba(255, 255, 255, 0.8));
+}
+.tgk:hover {
+	opacity: 100%;
+	-webkit-filter: drop-shadow(0px 0px 10px rgba(255, 255, 255, 0.8));
+}
+.poster1:hover {
+	-webkit-filter: grayscale(0%);
+	  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+.poster1{
+ margin-left: 15%;
+ margin-bottom: 30%;
+ width:350px;
+ transition:1s;
+ filter: grayscale(80%);
+ transition: 1s;
+}
+.stena{
+	width:600px;
+}
+.ponos{
+  font-family: "Shafarik", system-ui;
+  opacity: 90%;
+  color: white;
+  font-size: 30px;
+  margin-right: 100px;
+  padding-top: 100px;
+  width: 600px;
+}
+.ponos h1{
+  font-size: 100px;
+  margin-right: 120px;
+ 	}
+.top{
+  padding-top: 3%;
+  padding-bottom: 3%;
+ 	padding-right: 8%;
+ 	opacity: 80%;
+ 	width: 500px;
+}
+.gk{
+  font-family: "Shafarik", system-ui;
+ 	margin:0 auto;
+ 	width:50%;
+ 	text-wrap: wrap;
+}
+.kit{
+	padding-left: 10%;
+ 	width:20%;
+ 	margin-top:53%;
+	position:absolute;
+} 
+.kitimg{
+ 	width:110%;
+}
+.gnidaimg{
+ 	width:100%;
+}
+.gnider{
+ 	width:26%;
+	padding-left: 50%;
+}
+.tytdiv{
+	display: block;
+}
+.vf1{
+	padding-bottom:5px;
+	width: 500px;
+	margin-left: 50px;
+	opacity:100%;
+}
+.vf2{
+	width: 500px;
+	padding-top:5px;
+	margin-left: 50px;
+	opacity:100%;
+}
+.yt{
+	transition: 1s;
+	margin-left: 60px;
+}
+.yt:hover{
+		-webkit-filter: drop-shadow(0px 0px 10px rgba(255, 255, 255, 0.8));
+}
+.projects{
+	margin-bottom: 27%;
+	margin-right:75%;
+}
+.projects1{
+	position: absolute;
+	margin-top: 10%;
+	width: 36%;
+	transition: 1s;
+	cursor:pointer;
+}
+.projects1:hover{
+	-webkit-filter: drop-shadow(0px 0px 10px rgba(255, 255, 255, 0.8));
+
+}
+.email{
+	color:white;
+	transition:1s;
+}
+.email:hover{
+		-webkit-filter: drop-shadow(0px 0px 10px rgba(255, 255, 255, 0.8));
+}
+.projectsig{
+	padding-left: 15%;
+ 	width:20%;
+ 	margin-top:120%;
+	position:absolute;
+}
+.projksgn{
+ 	width:110%;
+}
+.page{
+	z-index: -1;
+	width:70%;
+	margin-top:9%;
+	padding-top: 10%;
+	background-image:url("gnidah-wall.png");
+	background-repeat: no-repeat;
+	background-position-x:center;
+	background-size: 100%;
+	background-height:100%;
+}
+.wrap{
+	padding-right:280px;
+	bottom:0;
+}
+.bottomkit{
+		padding-top: 129px;
+		width: 300px;
+		padding-right:60px;
+		position: absolute;
+}
+.feetfetis{
+	background:black;
+	margin-top:290px;
+}
+#bird {
+ position: absolute;
+ top: -150px;
+ left: 50%;
+ transform: translateX(-50%);
+ width: 100px;
+ transition: top 2s ease-in;
+ z-index: 2;
+}
+
+#bird {
+ position: absolute;
+ top: -150px;
+ left: 50%;
+ transform: translateX(-50%);
+ width: 100px;
+ transition: top 2s ease-in;
+ z-index: 2;
+}
+/*.aaaaa{
+	text-decoration: underline;
+	color:white;
+	transition: 1s;
+}
+.aaaaa:hover{
+		-webkit-filter: drop-shadow(0px 0px 10px rgba(255, 255, 255, 0.8));
+
+}*/
+.namir{
+	color:floralwhite;
+	 -webkit-filter: drop-shadow(0px 0px 10px rgba(255, 255, 255, 0.8));
+	 font-size: 38px;
+	 position: absolute;
+	 margin-left: 200px;
+}
+.feather {
+ position: absolute;
+ width: 30px;
+ height: auto;
+ pointer-events: none;
+ z-index: 9999;
+ opacity: 1;
+ transition: transform 1s ease-out, opacity 1s ease-out;
+}
+#popup-overlay {
+ position: fixed;
+ top: 0;
+ left: 0;
+ width: 100vw;
+ height: 100vh;
+ background-color: rgba(0, 0, 0, 0.5);
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ z-index: 9999;
+}
+#popup {
+ background-color: white;
+ color: black;
+ width: 50vw;
+ padding: 2rem;
+ border: 2px solid white;
+ border-radius: 20px;
+ box-shadow: 0 0 15px rgba(255, 255, 255, 0.2);
+ max-width: 90%;
+ text-align: center;
+}
+#popup a{
+	color:steelblue;
+}
+#popup button {
+ margin-top: 1rem;
+ padding: 0.5rem 1rem;
+ border: none;
+ background-color: black;
+ color: white;
+ border-radius: 10px;
+ cursor: pointer;
+}
+.kot111{
+ border-radius: 10px;
+	background: black;
+	width: 30vw;	
+}
+#img-popup-overlay {
+ position: fixed;
+ top: 0;
+ left: 0;
+ width: 100vw;
+ height: 100vh;
+ background-color: rgba(0, 0, 0, 0.5); /* 50% opacity black */
+ display: none;
+ justify-content: center;
+ align-items: center;
+ z-index: 9999;
+}
+
+#img-popup-box {
+ background-color: white;
+ color:black;
+ padding: 2rem;
+ border: 2px solid white;
+ border-radius: 20px;
+ box-shadow: 0 0 15px rgba(255, 255, 255, 0.2);
+ max-width: 90%;
+ text-align: center;
+}
+
+#img-popup-box button {
+ margin-top: 1rem;
+ padding: 0.5rem 1rem;
+ border: none;
+ background-color: black;
+ color: white;
+ border-radius: 10px;
+ cursor: pointer;
+}
+
+/* font families */
+.anonymous-pro-regular {
+  font-family: "Anonymous Pro", monospace;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.anonymous-pro-bold {
+  font-family: "Anonymous Pro", monospace;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.anonymous-pro-regular-italic {
+  font-family: "Anonymous Pro", monospace;
+  font-weight: 400;
+  font-style: italic;
+}
+
+.anonymous-pro-bold-italic {
+  font-family: "Anonymous Pro", monospace;
+  font-weight: 700;
+  font-style: italic;
+}
+.shafarik-regular {
+  font-family: "Shafarik", system-ui;
+  font-weight: 400;
+  font-style: normal;
+}
+.pangolin-regular {
+  font-family: "Pangolin", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+.rubik-dirt-regular {
+  font-family: "Rubik Dirt", system-ui;
+  font-weight: 400;
+  font-style: normal;
+}
+.ponos2{
+	display: none;
+}
+.yt2{
+	display: none;
+}
+.gk2{
+	display: none;
+}
+.namir2{
+	display: none;
+}
+/*2k*/
+@media only screen and (min-width: 2000px) {
+	.kit{
+	padding-left: 20%;
+ 	width:20%;
+ 	margin-top:39%;
+	position:absolute;
+} 
+ .kitimg{
+ 	width: 19vw;
+ }
+ .projectsig{
+	padding-left: 15%;
+ 	width:20%;
+ 	margin-top:99%;
+	position:absolute;
+}
+ .projksgn{
+ 	width:110%;
+}
+}
+/* mobile */
+@media only screen and (max-width: 600px) {
+	body{
+	background-position-x: 50%;	
+	background-position-y: 10% fixed;
+	}
+	#popup{
+ 		margin-top: 4rem;
+		width: 80vw;
+		height:70vh;
+		font-size: 13px;
+	}
+	.kot111{
+		width: 80vw;
+	}
+	.wall{
+		width:80VW;
+	}
+	.page{
+		width:100vw;
+	}
+	.poster1{
+		margin-left: 20%;
+		margin-top: 1%;
+	 	width:210px;
+	 	filter: grayscale(0%);
+			}
+	.vf1{
+			padding-bottom:5px;
+			width: 50vw;
+			margin-right: 50px;
+			opacity:100%;
+		}
+.vf2{
+		width: 50vw;
+		padding-top:5px;
+		margin-right: 50px;
+		opacity:100%;
+	 }
+.yt{
+		display:none;
+	}
+.yt2{
+		display:grid;
+	}
+.tgk{
+	opacity:80%;
+  width: 250px;
+  margin-right:70px;
+	-webkit-filter: drop-shadow(0px 0px 0px rgba(255,255,255,0.80));
+	-webkit-transition: all 0.5s linear;
+	-o-transition: all 0.5s linear;
+	transition: all 0.5s linear;
+	
+}
+.insta{
+	opacity:80%;
+  width: 150px;
+  margin-right: 29%;
+	-webkit-filter: drop-shadow(0px 0px 0px rgba(255,255,255,0.80));
+	-webkit-transition: all 0.5s linear;
+	-o-transition: all 0.5s linear;
+	transition: all 0.5s linear;
+}
+.top{
+  padding-top: 3%;
+  padding-bottom: 3%;
+ 	padding-right: 18%;
+ 	opacity: 80%;
+ 	width: 250px;
+		}
+.ponos{
+	display:none;
+}
+.ponos h1{
+	display:none;
+ 	}
+ .ponos2{
+ 	display:block;
+ 	padding-right:50px;
+ }
+ .gk{
+ 	display: none;
+ }
+ .gk2{
+ 	display: block;
+ 	width:50vw;
+ }
+ .kit{
+ 	margin-right: 60vw;
+	padding-left: 0%;
+ 	width:20%;
+ 	margin-top:53%;
+	position:absolute;
+} 
+ .kitimg{
+ 	width: 39vw;
+ }
+ .namir{
+ 	display: none;
+ }
+ .namir2{
+ 	font-size: 30px;
+ }
+ .projectsig{
+	padding-left: 15%;
+ 	width:20%;
+ 	margin-top:240%;
+	position:absolute;
+}
+.projksgn{
+ 	width:210%;
+	}
+ .projects{
+	margin-bottom: 27%;
+	margin-right:75%;
+	}
+ .projects1{
+	position: absolute;
+	margin-top: 2%;
+	width: 50%;
+	transition: 1s;
+	cursor:pointer;
+	}
+}
