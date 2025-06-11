@@ -491,3 +491,15 @@ body{
 	cursor:pointer;
 	}
 }
+@media only screen and (max-width: 400px) {
+	body{
+	background-position-x: 50%;	
+	background-position-y: 10% fixed;
+	}
+	#popup{
+ 		margin-top: 4rem;
+		width: 80vw;
+		height:60vh;
+		font-size: 9px;
+	}
+}
